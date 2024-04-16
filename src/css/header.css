@@ -1,21 +1,47 @@
 .header {
-  padding: 20px 0;
-}
+  border-bottom: 3px solid #275f7a;
 
-.nav-list {
+}
+.header-container{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: flex-end;
+}
+.header-logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #275f7a;
+}
+.header-nav {
+
+}
+.header-list {
+  display: flex;
   gap: 40px;
-}
 
-.nav-link {
+
+}
+.header-link {
+  display: block;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2e363e;
+  padding: 41px 0;
 }
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.header-link:hover,.header-link:focus{
+    color: #275f7a;
+}
+.header-address {
+  font-style: normal;
+}
+.header-tel-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 152%;
+  text-align: right;
+  color: #275f7a;
 }
