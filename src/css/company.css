@@ -1,0 +1,31 @@
+.company {
+    background: #275f7a;
+}
+.company-box {
+    display: flex;
+    align-items: center;
+
+}
+.company-title {
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    text-align: center;
+    color: #fff;
+}
+.company-subtitle {
+    
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 143%;
+    text-align: center;
+    color: #fff;
+}
+.company-text {
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+}
